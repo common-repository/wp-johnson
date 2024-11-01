@@ -1,0 +1,136 @@
+
+/*-----------------------------------------------------------------
+ * = General
+ *-----------------------------------------------------------------*/
+
+.cow_johnson {
+    position: relative;
+    overflow: auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+/*    margin-bottom: 1.5em;
+    padding: 1em; */   
+    }
+    
+    .cow_johnson p {
+        color: inherit!important;
+        }
+        
+    .cow_johnson img {
+        background-color: transparent;
+        box-shadow: none!important;
+        border-radius: 0!important;
+        }
+        .cow_johnson img.alignright {
+            float: right; 
+            margin: 5px 0 1em 1.5em;
+            }
+        .cow_johnson img.alignleft {
+            float: left; 
+            margin :5px 1.5em 1em 0;
+            }
+        .cow_johnson img.aligncenter {
+            display: block; 
+            margin-left: auto; 
+            margin-right: auto;
+            }
+        .cow_johnson .alignright {
+            float: right; 
+            }
+        .cow_johnson .alignleft {
+            float: left; 
+            }
+        .cow_johnson .aligncenter {
+            display: block; 
+            margin-left: auto; 
+            margin-right: auto;
+            }
+        
+    .cow_johnson h1,
+    .cow_johnson h2,
+    .cow_johnson h3,
+    .cow_johnson h4,
+    .cow_johnson h5,
+    .cow_johnson h6 {
+        text-transform: capitalize;
+        }
+             
+    .cow_johnson a span { 
+        position:absolute; 
+        width:100%;
+        height:100%;
+        top:0;
+        left: 0;
+        z-index: 1;
+        } 
+       
+    /* All CTA buttons */
+    .cow_johnson .cta_button {
+        margin-top: 1.5em;
+        text-shadow: none!important;
+        }
+        .cow_johnson .cta_button.left a {
+            float: left;
+            }
+        .cow_johnson .cta_button.center {
+            width:100%;
+            text-align:center;
+            }        
+        .cow_johnson .cta_button.right a {
+            float: right;
+            }
+
+/*-----------------------------------------------------------------
+ * = CTA Button styles
+ *-----------------------------------------------------------------*/
+ 
+/* Metro */    
+.cow_johnson .cta_button .metro {
+    font-family: 'Segoe UI',Tahoma,Arial,Helvetica,sans-serif;
+    background: #73B43D;
+    color: white!important;
+    padding: 5px 15px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-decoration: none;
+    }
+    .cow_johnson .cta_button .metro:hover {
+        background: #649C3C;
+        color: white!important;
+        text-decoration: none;
+        }
+
+/* Style 1 */
+.cow_johnson .cta_button .style1 {
+    background-color: #A3CF51;
+    padding: 7px 23px 8px;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font: 14px/100% Segoe UI;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    line-height: 17px;
+    }
+    .cow_johnson .cta_button .style1:hover {
+        color: white!important;
+        background-color: #3F3F3F;
+        }
+
+/* Style 2 */
+.cow_johnson .cta_button .style2 {
+    padding: 7px 23px 8px;
+    background-color: #3F3F3F;
+    color: white!important;
+    text-decoration: none;
+    }
+    .cow_johnson .cta_button .style2:hover {
+        background-color: #D0491E;
+        color: white!important;
+        }
+                
+                
+        
